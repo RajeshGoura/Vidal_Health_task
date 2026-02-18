@@ -22,7 +22,7 @@ public class WebhookService {
     public void init() {
         try {
             // Step 1: Generate webhook
-            WebhookRequest request = new WebhookRequest("John Doe", "REG12347", "john@example.com");
+            WebhookRequest request = new WebhookRequest("RAJESH GOURA", "REG12347", "rajeshgoura96@gmail.com");
             
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.APPLICATION_JSON);
